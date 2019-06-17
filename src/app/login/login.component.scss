@@ -3,4 +3,29 @@
     width: 100%;
     bottom: 0;
     top: 0;
+    right: 0;
+    left: 0;
+    form { 
+        padding: 50px 10px 10px;
+        border-radius: 10px;
+        background-color: #00448d; 
+        color: #fff;
+        .circle_icon {
+            width: 100px;
+            height: 100px;
+            background-color: #ddd;
+            border: 3px solid #000;
+            border-radius: 100%;
+            margin: auto;
+            position: absolute;
+            right: 0;
+            left: 0;
+            top: -50px;
+        }
+        .btn-login {
+            background-color:#000;
+            border-color:#000;
+            color: #FFF;    
+        }
+    }
 }
