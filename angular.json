@@ -66,8 +66,7 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "EmbuWHMCS:build",
-            "baseHref": "WHMCS"
+            "browserTarget": "EmbuWHMCS:build"
           },
           "configurations": {
             "production": {
