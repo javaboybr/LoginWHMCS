@@ -5,7 +5,7 @@
     top: 0;
     right: 0;
     left: 0;
-    background-color:#100038;
+    background-color:#13071e;
     form { 
         padding: 50px 10px;
         border-radius: 10px;
@@ -23,18 +23,24 @@
             right: 0;
             left: 0;
             top: -50px;
+            &__img {
+                position: absolute;
+                top: 0;
+                bottom: 0;
+                margin: auto;
+            }
         }
         .form__footer {
             height: 38px;
             width: 100%;
-            background-color: #100038;
+            background-color: #1f071e;
             position: absolute;
             bottom: 0;
             left: 0;
             border-radius: 0 0 10px 10px;
             .btn-login {
-                background-color:#100038;
-                border-color:#100038;
+                background-color:#1f071e;
+                border-color:#1f071e;
                 color: #FFF;    
                 transition: all 1s;
                 &:hover {

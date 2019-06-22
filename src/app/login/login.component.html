@@ -1,7 +1,9 @@
 <section class="container">
   <div class="form justify-content-md-center align-items-center row">
     <form [formGroup]="login" (submit)="ngSubmit()" class="col-md-4 col-lg-3">
-      <div class="circle_icon"></div>
+      <div class="circle_icon">
+        <img class="circle_icon__img" src="./../../assets/logo.png" alt="" width="100px">
+      </div>
       <div class="form-group">
         <label for="exampleInputEmail1">Usuário</label>
         <input type="email" formControlName="email" class="form-control" id="exampleInputEmail1"  placeholder="Enter email">
@@ -11,7 +13,7 @@
         <input type="password"  formControlName="senha" class="form-control" id="exampleInputPassword1" placeholder="Senha">
       </div>
       <div class="form__footer">
-        <button type="submit" class="btn btn-login float-right"> <span></span> Entrar</button>
+        <button type="submit" class="btn btn-login"> <span></span> Entrar</button>
       </div>
     </form>
   </div>
