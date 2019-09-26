@@ -37,4 +37,12 @@ describe('LoginComponent', () => {
   it('should create', () => {
     expect(component).toBeTruthy();
   });
+
+  it('usuario identificado', () => {
+    const testeUsuario = component.login.controls.email = 'teste@teste.com';
+    expect(testeUsuario).toEqual('teste@teste.com');
+  });
+
+  it('senha')
+
 });

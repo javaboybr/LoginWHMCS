@@ -42,19 +42,14 @@
                 background-color:#1f071e;
                 border-color:#1f071e;
                 color: #FFF;    
-                transition: all 1s;
-                &:hover {
-                    transform: scale(1.2);
-                    transition: all 1s;
-                }
-                span {
-                    width: 50%;
-                    height: 100%;
-                    background-color: #fff;
-                    transform: skewX(35deg);
-                    z-index: 3;
-                }
+                width: 100%;
+                text-align: center;
+                
             }
+        }
+        .danger {
+            color: red;
+            font-size: 14px; 
         }
 
     }

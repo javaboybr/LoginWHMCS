@@ -5,6 +5,7 @@ import { LoginRoutingModule } from './login-routing.module';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { HttpClientTestingModule } from '@angular/common/http/testing';
+import {NgxMaskModule} from 'ngx-mask';
 
 @NgModule({
   declarations: [LoginComponent],
@@ -15,6 +16,7 @@ import { HttpClientTestingModule } from '@angular/common/http/testing';
     FormsModule,
     ReactiveFormsModule,
     HttpClientModule,
+    NgxMaskModule.forRoot()
   ],
   providers: [
     HttpClientModule

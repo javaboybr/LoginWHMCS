@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build",
+    "build": "ng build --aot",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
@@ -27,6 +27,7 @@
     "jquery": "^3.4.1",
     "lifecycle": "^1.0.4",
     "ngx-bootstrap": "^4.3.0",
+    "ngx-mask": "^8.0.0",
     "node-gyp": "^4.0.0",
     "rxjs": "~6.3.3",
     "tslib": "^1.9.0",
