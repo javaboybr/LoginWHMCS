@@ -2,7 +2,7 @@ const express = require('express');
 const path = require('path');
 
 const app = express();
-const appName = 'espire'
+const appName = 'EmbuWHMCS'
 
 // Serve only the static files form the dist directory
 app.use(express.static(__dirname + '/dist/'+appName));
