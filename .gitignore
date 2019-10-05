@@ -86,3 +86,5 @@ typings/
 /.nb-gradle/
 
 *.jar
+
+/web/dist/*
