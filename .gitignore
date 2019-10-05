@@ -88,3 +88,4 @@ typings/
 *.jar
 
 /web/dist/*
+/api/target/*
