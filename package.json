@@ -1,0 +1,16 @@
+{
+  "name": "monorepo-heroku",
+  "private": true,
+  "scripts": {
+    "bootstrap": "lerna bootstrap",
+    "clean": "lerna clean",
+    "build-ts": "lerna run build-ts",
+    "lerna": "lerna",
+    "lint": "lerna run lint",
+    "postinstall": "sh postinstall.sh",
+    "test": "lerna run test"
+  },
+  "devDependencies": {
+    "lerna": "^3.3.0"
+  }
+}
