@@ -1,1 +1,1 @@
-web: cd app && node server.js
+web: cd web && node server.js
